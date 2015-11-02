@@ -1,5 +1,6 @@
 module PeopleHelper
   include StreamsHelper
+  include ActionView::Helpers
 
   def linkify(text, attribute)
     text = h(text)
